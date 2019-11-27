@@ -4,15 +4,37 @@ svg {
 }
 
 #hair, #head {
-    animation: head 1s ease-in-out infinite alternate;
+    animation: head 3s ease-in-out infinite alternate;
     transform-origin: center;
     transform-box: fill-box;
+}
+
+#shoulders {
+  animation: shoulders 2s infinite;
 }
 
 @keyframes head {
   from {
     transform: translateY(0%);
   } to {
-    transform: translateY(5%);
+    transform: translateY(2%);
   }
+}
+
+@keyframes shoulders {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    25% {
+        transform: rotateZ(0.15deg);
+    }
+    50% {
+        transform: rotateZ(0deg);
+    }
+    75% {
+        transform: rotateZ(0.15deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
 }
