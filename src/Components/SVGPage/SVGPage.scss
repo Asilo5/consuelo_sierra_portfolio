@@ -2,3 +2,17 @@ svg {
     display: block;
     margin: auto;
 }
+
+#hair, #head {
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes head {
+  from {
+    transform: translateY(0%);
+  } to {
+    transform: translateY(5%);
+  }
+}
