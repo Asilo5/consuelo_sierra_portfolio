@@ -41,11 +41,13 @@ h3 {
 }
 
 .nav {
-    margin: 20px auto;
-	border: none;
-	padding: 10px 44px;
-	font-size: 36px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+	padding: 10px;
+	font-size: 2.5em;
     position: relative;
+    top: 20px;
     text-decoration: none;
     &::before{
 		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -53,13 +55,12 @@ h3 {
 		height: 100%;
 		position: absolute;
 		top: 0;
-		left: 1px;
+		left: 0;
 	}	
     & .nav-text{
         color:rgb(53, 190, 76);
         mix-blend-mode: difference;
     }
-    
     &::before{
         border-radius: 50px;
         width: 25%;
