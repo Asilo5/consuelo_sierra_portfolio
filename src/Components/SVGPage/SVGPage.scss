@@ -41,7 +41,36 @@ h3 {
 }
 
 .nav {
-
+    margin: 20px auto;
+	border: none;
+	padding: 10px 44px;
+	font-size: 36px;
+    position: relative;
+    text-decoration: none;
+    &::before{
+		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		content: '';
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 1px;
+	}	
+    & .nav-text{
+        color:rgb(69, 224, 95);
+        mix-blend-mode: difference;
+    }
+    
+    &::before{
+        border-radius: 50px;
+        width: 25%;
+        background: white;
+    }
+    &:hover{
+        &::before{
+          background: white;
+          width: 100%;
+        }
+    }	
 }
 
 @keyframes head {
