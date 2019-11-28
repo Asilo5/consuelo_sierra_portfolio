@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './App.scss';
 import SVGPage from '../SVGPage/SVGPage';
+import { Route, Switch } from 'react-router-dom'
 
 class App extends Component {
   
   render() {
     return (
       <main>
-         <SVGPage />
+        <Switch>
+          <Route exact path='/' render={() => <SVGPage /> } />
+        </Switch>
 
       </main>
     )
