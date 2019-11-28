@@ -68,10 +68,10 @@ const SVGPage = () => {
             </defs>
             </svg>
             <h3>Software Dev</h3>
-            <section>
-                <NavLink to='/about' activeClassName='active-nav' >About</NavLink>
-                <NavLink to='/projects' activeClassName='active-nav' >Projects</NavLink>
-                <NavLink to='/contact' activeClassName='active-nav' >Contact</NavLink>
+            <section className='svg-links'>
+                <NavLink to='/about' className='nav' >About</NavLink>
+                <NavLink to='/projects' className='nav' >Projects</NavLink>
+                <NavLink to='/contact' className='nav' >Contact</NavLink>
             </section>
         </section>
     )
