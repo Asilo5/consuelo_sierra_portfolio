@@ -1,0 +1,69 @@
+svg {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 16%;
+}
+
+#hair, #head {
+    animation: head 3s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#shoulders {
+  animation: shoulders 2s infinite;
+}
+
+#clouds {
+    animation: clouds 80s linear infinite;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 5em;
+    color: navajowhite;
+}
+
+h3 {
+  @extend h2;
+  color: white;
+  font-size: 3em;
+}
+
+@keyframes head {
+  from {
+    transform: translateY(0%);
+  } to {
+    transform: translateY(2%);
+  }
+}
+
+@keyframes shoulders {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    25% {
+        transform: rotateZ(0.15deg);
+    }
+    50% {
+        transform: rotateZ(0deg);
+    }
+    75% {
+        transform: rotateZ(0.15deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes clouds {
+    0% {
+        transform: translateX(1vw) scale(0.2);
+      }
+      
+    100% {
+        transform: translateX(-1vw) scale(1);
+      }
+}
