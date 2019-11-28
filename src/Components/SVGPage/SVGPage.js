@@ -1,6 +1,6 @@
 import React from 'react';
 import './SVGPage.scss';
-
+import { NavLink } from 'react-router-dom';
 
 const SVGPage = () => {
     return (
@@ -68,6 +68,11 @@ const SVGPage = () => {
             </defs>
             </svg>
             <h3>Software Dev</h3>
+            <section>
+                <NavLink to='/about' activeClassName='active-nav' >About</NavLink>
+                <NavLink to='/projects' activeClassName='active-nav' >Projects</NavLink>
+                <NavLink to='/contact' activeClassName='active-nav' >Contact</NavLink>
+            </section>
         </section>
     )
 }
