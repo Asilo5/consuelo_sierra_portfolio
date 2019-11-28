@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar should match snapshot with all information passing in correctly 1`] = `
+<nav>
+  <h1>
+    Consuelo Sierra
+  </h1>
+  <NavLink
+    activeClassName="active-nav"
+    to="/about"
+  >
+    About
+  </NavLink>
+  <NavLink
+    activeClassName="active-nav"
+    to="/projects"
+  >
+    Projects
+  </NavLink>
+  <NavLink
+    activeClassName="active-nav"
+    to="/contact"
+  >
+    Contact
+  </NavLink>
+</nav>
+`;
