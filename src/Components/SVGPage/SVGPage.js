@@ -4,6 +4,8 @@ import './SVGPage.scss';
 
 const SVGPage = () => {
     return (
+        <section>
+        <h2>Consuelo Sierra</h2>
         <svg width="1042" height="555" viewBox="0 0 1042 555" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="portfolio_consuelo" clipPath="url(#clip0)">
         <g id="programmer">
@@ -65,6 +67,8 @@ const SVGPage = () => {
         </clipPath>
         </defs>
         </svg>
+        <h3>Software Dev</h3>
+        </section>
     )
 }
 

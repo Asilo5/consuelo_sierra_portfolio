@@ -1,6 +1,8 @@
 svg {
     display: block;
     margin: auto;
+    position: relative;
+    top: 16%;
 }
 
 #hair, #head {
@@ -11,6 +13,23 @@ svg {
 
 #shoulders {
   animation: shoulders 2s infinite;
+}
+
+#clouds {
+    animation: clouds 80s linear infinite;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 5em;
+    color: navajowhite;
+}
+
+h3 {
+  @extend h2;
+  color: white;
+  font-size: 3em;
 }
 
 @keyframes head {
@@ -37,4 +56,14 @@ svg {
     100% {
         transform: rotateZ(0deg);
     }
+}
+
+@keyframes clouds {
+    0% {
+        transform: translateX(1vw) scale(0.2);
+      }
+      
+    100% {
+        transform: translateX(-1vw) scale(1);
+      }
 }
