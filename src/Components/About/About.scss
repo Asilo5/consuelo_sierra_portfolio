@@ -1,1 +1,45 @@
+ .about-section {
+    margin: auto;
+    display: block;
+    width: 75%;
+    padding: 20px;
+    background-color: #ffffff42;
+    border-radius: 20px;
+}
  
+.link {
+    height: 4em;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.3);
+    }
+ }
+
+.about-chelo {
+    display: flex;
+    margin: 10px;
+    img {
+        margin: auto;
+        height: 25em;
+        border-radius: 50%;
+    }
+}
+
+article {
+    text-align: center;
+}
+
+.paragraph {
+    width: 51%;
+    margin: auto;
+    p {
+        color: white;
+        font-size: 30px;
+    }
+}
+
+.link-section {
+    text-align: center;
+}
+
