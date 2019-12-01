@@ -3,25 +3,30 @@
 exports[`NavBar should match snapshot with all information passing in correctly 1`] = `
 <nav>
   <h1>
-    Consuelo Sierra
+    Consuelo
   </h1>
-  <NavLink
-    activeClassName="active-nav"
-    to="/about"
-  >
-    About
-  </NavLink>
-  <NavLink
-    activeClassName="active-nav"
-    to="/projects"
-  >
-    Projects
-  </NavLink>
-  <NavLink
-    activeClassName="active-nav"
-    to="/contact"
-  >
-    Contact
-  </NavLink>
+  <section>
+    <NavLink
+      activeClassName="active-nav"
+      className="nav-link"
+      to="/about"
+    >
+      About
+    </NavLink>
+    <NavLink
+      activeClassName="active-nav"
+      className="nav-link"
+      to="/projects"
+    >
+      Projects
+    </NavLink>
+    <NavLink
+      activeClassName="active-nav"
+      className="nav-link"
+      to="/contact"
+    >
+      Contact
+    </NavLink>
+  </section>
 </nav>
 `;
