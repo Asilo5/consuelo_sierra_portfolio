@@ -10,11 +10,20 @@ nav {
     }
     section {
        padding: 5px;
-       .nav-link {
-            color: white;
-            text-decoration: none;
-            font-size: 25px;
-            margin-right: 3em;
-       }
     }
 }
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 3em;
+    &:hover {
+        border-bottom: 2px solid white;
+    }
+}
+
+.active-nav {
+    border-bottom: 2px solid white;
+}
+
