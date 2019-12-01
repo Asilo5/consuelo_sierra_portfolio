@@ -7,7 +7,7 @@ exports[`SVGPage should match snapshot with all information passing in correctly
   </h2>
   <svg
     fill="none"
-    height="555"
+    height="500"
     viewBox="0 0 1042 555"
     width="1042"
     xmlns="http://www.w3.org/2000/svg"
