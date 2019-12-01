@@ -1,1 +1,19 @@
- 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: purple;
+    h1 {
+      color: white;
+      font-size: 2em;
+    }
+    section {
+       padding: 5px;
+       .nav-link {
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+            margin-right: 3em;
+       }
+    }
+}
