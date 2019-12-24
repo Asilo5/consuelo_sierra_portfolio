@@ -10,9 +10,17 @@ const About = () => {
                 <h3> Hiya! I'm </h3>
                 <h2>Consuelo Sierra.</h2>
                 <article>
-                    <p> A Front-End Developer based in Denver, Colorado, looking for opportunities here and around the globe.</p>
-                    <p> I have a passion for creating websites that are fun yet easy to use for users using React.</p>
-                    <p> Currently, the opportunities I am looking for are junior Front-End, internship, or apprenticeship positions.</p>
+                    <p> A Front-End Developer based in Denver, Colorado, looking for opportunities here and around the globe.
+                 I have a passion for creating websites that are creative yet easy to navigate for users.
+                 Currently, the opportunities I am looking for are junior Front-End, internship, or apprenticeship positions.</p>
+                 <p>My Tech Stack includes: </p>
+                 <ul>
+                     <li>React & Redux</li>
+                     <li>Javascript (ES6)</li>
+                     <li>HTML & CSS</li>
+                     <li>Jest & Enzyme</li>
+                     <li></li>
+                 </ul>
                 </article>
             </section>
         </section>
