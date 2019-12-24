@@ -1,3 +1,8 @@
+.svg-page {
+    background-color: rgb(11, 4, 130);
+    padding: 30px;
+}
+
 svg {
     display: block;
     margin: auto;
@@ -32,48 +37,6 @@ h3 {
   font-size: 3em;
 }
 
-.svg-links {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-	padding: 10px;
-	font-size: 2.5em;
-    position: relative;
-    top: 20px;
-    text-decoration: none;
-    &::before{
-		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		content: '';
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-	}	
-    & .nav-text{
-        color:rgb(53, 190, 76);
-        mix-blend-mode: difference;
-    }
-    &::before{
-        border-radius: 50px;
-        width: 6%;
-        background: white;
-    }
-    &:hover{
-        &::before{
-          background: white;
-          width: 100%;
-        }
-    }	
-}
-
 @keyframes head {
   from {
     transform: translateY(0%);
@@ -87,13 +50,13 @@ h3 {
         transform: rotateZ(0deg);
     }
     25% {
-        transform: rotateZ(0.15deg);
+        transform: rotateZ(0.17deg);
     }
     50% {
         transform: rotateZ(0deg);
     }
     75% {
-        transform: rotateZ(0.15deg);
+        transform: rotateZ(0.17deg);
     }
     100% {
         transform: rotateZ(0deg);

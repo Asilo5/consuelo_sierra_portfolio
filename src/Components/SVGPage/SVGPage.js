@@ -1,10 +1,9 @@
 import React from 'react';
 import './SVGPage.scss';
-import { NavLink } from 'react-router-dom';
 
 const SVGPage = () => {
     return (
-        <section>
+        <section className='svg-page'>
             <h2>Consuelo Sierra</h2>
             <svg width="1042" height="500" viewBox="0 0 1042 555" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="portfolio_consuelo" clipPath="url(#clip0)">
@@ -68,11 +67,6 @@ const SVGPage = () => {
             </defs>
             </svg>
             <h3>Software Dev</h3>
-            <section className='svg-links'>
-                <NavLink to='/about' className='nav' ><span className='nav-text'>About Me</span></NavLink>
-                <NavLink to='/projects' className='nav' ><span className='nav-text'>Projects</span></NavLink>
-                <NavLink to='/contact' className='nav' ><span className='nav-text'>Contact</span></NavLink>
-            </section>
         </section>
     )
 }
