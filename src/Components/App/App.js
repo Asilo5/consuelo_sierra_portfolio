@@ -13,7 +13,10 @@ class App extends Component {
     return (
       <main>
          <SVGPage />
-         <NavBar />
+         <section>
+            <NavBar />
+
+         </section>
       </main>
     )
   }
