@@ -20,6 +20,8 @@ const About = () => {
             <a href='https://www.linkedin.com/in/consuelo-sierra-lopez/'><img className='link' src='https://www.freepngimg.com/download/social_media/74289-media-icons-computer-linkedin-social-free-transparent-image-hd.png' alt='linkedin icon'/></a>
             <a href='https://twitter.com/_consueloCodes5' ><img className='link' src='https://icons-for-free.com/iconfiles/png/512/logo+twitter+twitter+logo+icon-1320167831451644641.png' alt='twitter icon' /></a>
             <a href='https://github.com/' ><img className='link' src='https://icon-library.net/images/github-icon-png/github-icon-png-22.jpg' alt='github icon' /></a>
+            <a href="mailto:asierralopez526@gmail.com" ><img className='link' src='https://library.kissclipart.com/20180902/ekq/kissclipart-transparent-background-mail-icon-clipart-computer-d100975ab74ec96b.png' alt='github icon' /></a>
+
         </section>
     </section>
   )
