@@ -7,10 +7,10 @@ const About = () => {
         <section className='about-chelo'>
             <img src='https://alumni.turing.io/sites/default/files/styles/graduate_full_profile/public/DSC_3400-Edit.jpg?itok=VgVyiHzN' alt='Consuelo posing outside holding her laptop in Denver Colorado' />
             <section className='paragraph'>
-                <h2> Hiya!</h2>
-                <h2>I'm Consuelo.</h2>
+                <h3> Hiya! I'm </h3>
+                <h2>Consuelo Sierra.</h2>
                 <article>
-                    <p> I am a Front-End Developer based in Denver, Colorado and willing to relocate.</p>
+                    <p> A Front-End Developer based in Denver, Colorado, looking for opportunities here and around the globe.</p>
                     <p> I have a passion for creating websites that are fun yet easy to use for users using React.</p>
                     <p> Currently, the opportunities I am looking for are junior Front-End, internship, or apprenticeship positions.</p>
                 </article>
