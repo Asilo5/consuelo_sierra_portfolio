@@ -68,7 +68,6 @@ const SVGPage = () => {
             </defs>
             </svg>
             <h3>Software Dev</h3>
-
         </section>
     )
 }

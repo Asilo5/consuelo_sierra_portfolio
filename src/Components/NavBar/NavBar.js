@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
     return (
         <nav>
-            <h1>Consuelo</h1>
             <section className='svg-links'>
                 <NavLink to='/about' className='nav' ><span className='nav-text'>About Me</span></NavLink>
                 <NavLink to='/projects' className='nav' ><span className='nav-text'>Projects</span></NavLink>
