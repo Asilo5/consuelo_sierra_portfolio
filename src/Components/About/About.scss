@@ -1,10 +1,12 @@
  .about-section {
-    background-color: rgb(11, 4, 130);
+    background-color: #5252e9;
     padding: 20px;
 }
  
 .link {
     height: 4em;
+    margin: 15px;
+    padding: 10px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
     &:hover {
@@ -19,16 +21,25 @@
         margin: auto;
         height: 25em;
         border-radius: 50%;
+        box-shadow: 15px 10px #F1B03C;
     }
 }
 
-article {
+.paragraph {
     text-align: center;
 }
 
-.paragraph {
+.name-info {
     width: 51%;
     margin: auto;
+    h3 {
+       text-align: left;
+       margin-left: 25px; 
+    }
+    h2 {
+        color: #F1B03C;
+        font-size: 6em;
+    }
     p {
         color: white;
         font-size: 30px;
@@ -37,5 +48,19 @@ article {
 
 .link-section {
     text-align: center;
+}
+
+ul {
+    // width: 40%;
+    // display: flex;
+    // flex-wrap: wrap;
+    // list-style-image: url('http://www.netanimations.net/Small-animated-flashing-sunshine-icon.gif');
+    // list-style: square inside url("sqpurple.gif");
+    li {
+        color: white;
+        margin: 5px;
+        font-size: 20px;
+
+    }
 }
 
