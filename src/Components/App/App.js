@@ -3,7 +3,7 @@ import './App.scss';
 import SVGPage from '../SVGPage/SVGPage';
 // import ProjectsContainer from '../ProjectsContainer';
 // import Contact from '../Contact/Contact';
-// import About from '../About/About';
+import About from '../About/About';
 import NavBar from '../NavBar/NavBar';
 // import { Route, Switch } from 'react-router-dom'
 
@@ -15,7 +15,7 @@ class App extends Component {
          <SVGPage />
          <section>
             <NavBar />
-
+            <About />
          </section>
       </main>
     )
