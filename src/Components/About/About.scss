@@ -25,11 +25,11 @@
     }
 }
 
-article {
+.paragraph {
     text-align: center;
 }
 
-.paragraph {
+.name-info {
     width: 51%;
     margin: auto;
     h3 {
@@ -48,5 +48,19 @@ article {
 
 .link-section {
     text-align: center;
+}
+
+ul {
+    // width: 40%;
+    // display: flex;
+    // flex-wrap: wrap;
+    // list-style-image: url('http://www.netanimations.net/Small-animated-flashing-sunshine-icon.gif');
+    // list-style: square inside url("sqpurple.gif");
+    li {
+        color: white;
+        margin: 5px;
+        font-size: 20px;
+
+    }
 }
 
