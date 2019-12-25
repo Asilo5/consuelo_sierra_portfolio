@@ -8,7 +8,7 @@ const ProjectsContainer = () => {
       return <Project key={project.name} {...project}/>
   })
     return (
-        <section>
+        <section className='project-container'>
             {theProjects}
         </section>
     )
