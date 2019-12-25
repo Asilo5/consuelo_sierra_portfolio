@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 import SVGPage from '../SVGPage/SVGPage';
-// import ProjectsContainer from '../ProjectsContainer';
+import ProjectsContainer from '../ProjectsContainer/ProjectsContainer';
 // import Contact from '../Contact/Contact';
 import About from '../About/About';
 import NavBar from '../NavBar/NavBar';
@@ -16,6 +16,7 @@ class App extends Component {
          <section>
             <NavBar />
             <About />
+            <ProjectsContainer />
          </section>
       </main>
     )
