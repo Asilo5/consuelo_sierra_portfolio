@@ -9,7 +9,9 @@ const ProjectsContainer = () => {
   })
     return (
         <section className='project-container'>
+           <span role="img" className='arrow'>👉🏻</span>
             {theProjects}
+           <span role="img" className='arrow'>👈🏻</span>
         </section>
     )
 }

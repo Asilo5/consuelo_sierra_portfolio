@@ -1,5 +1,12 @@
 .project-container {
-    background-color: #5252e9;
+    background: rgb(151,151,224);
+    background: linear-gradient(0deg, rgba(151,151,224,1) 0%, rgba(82,82,233,1) 70%);
     display: flex;
     overflow: scroll;
+    .arrow {
+        display: flex;
+        align-items: center;
+        font-size: 4em;
+        padding: 10px;
+    }
 }
