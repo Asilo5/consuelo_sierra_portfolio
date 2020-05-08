@@ -1,9 +1,6 @@
 # Consuelo Sierra Portfolio
 
-...
-
-## Created by:
-[Amanda Consuelo Sierra](https://github.com/Asilo5)
+I wanted to create my own page that displayed all of my work and qualifications using React. One of my favourite challneges was making the SVG of myself come to life by changing the colours and texture of the hair as well as making it move with animations.
 
 ## What was used to build my portfolio
 
