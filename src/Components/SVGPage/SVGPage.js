@@ -5,7 +5,7 @@ const SVGPage = () => {
     return (
         <section className='svg-page'>
             <h2>Consuelo Sierra</h2>
-            <svg  height="500" viewBox="0 0 1042 555" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 1042 555" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="portfolio_consuelo" clipPath="url(#clip0)">
             <g id="programmer">
             <path id="Vector" d="M344.17 474V498.49C344.171 499.65 343.842 500.786 343.222 501.767C342.603 502.748 341.718 503.532 340.67 504.03C339.89 504.408 339.037 504.613 338.17 504.63L303.27 505.37C302.338 505.392 301.414 505.197 300.57 504.8C299.504 504.311 298.6 503.526 297.968 502.539C297.335 501.551 296.999 500.403 297 499.23V474H344.17Z" fill="#3F3D56"/>
