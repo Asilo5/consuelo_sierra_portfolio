@@ -6,7 +6,6 @@ I wanted to create my own page that displayed all of my work and qualifications 
 
 What's New Times was built using:
   - React
-  - React Router
   - SVG animation
   - Jest
   - Enzyme
