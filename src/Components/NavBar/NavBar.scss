@@ -4,19 +4,23 @@ nav {
     padding: 20px;
     background: #4CADA0;
     margin-bottom: -2em;
-}
 
-.nav {
-  margin-left: 5em;
-  text-decoration: none;
-  color: navajowhite;
-  font-size: 18px;
-  border: 1px solid transparent;
-  padding: 5px;
-  transition: 1s ease-in-out;
+    .nav {
+        margin-left: 5em;
+        text-decoration: none;
+        color: navajowhite;
+        font-size: 18px;
+        border: 1px solid transparent;
+        padding: 5px;
+        transition: 1s ease-in-out;
+      
+        &:hover {
+            border-bottom: 1px solid navajowhite;
+        }
+      }
 
-  &:hover {
-      border-bottom: 1px solid navajowhite;
-  }
+    .active {
+        border-bottom: 1px solid navajowhite;
+      }
 }
 
