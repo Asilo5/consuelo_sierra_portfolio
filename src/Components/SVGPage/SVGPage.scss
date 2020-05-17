@@ -1,14 +1,14 @@
 .svg-page {
-    background-color: #090979;
-    padding: 70px;
+    background-color: #4CADA0;
+    padding: 0px 40px;
 }
 
 svg {
   position: relative;
-  top: -7em;
+  top: -15em;
+  left: 2em;
   display: block;
   margin: auto;
-  height: 500px;
 }
 
 #hair, #head {
@@ -25,7 +25,8 @@ svg {
     animation: clouds 80s linear infinite;
 }
 
-h2 {
+h1 {
+    font-family: 'Bellota Text', cursive;
     text-align: center;
     padding: 10px;
     font-size: 5em;
@@ -33,7 +34,9 @@ h2 {
 }
 
 h3 {
-  @extend h2;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Vibur', cursive;
   color: white;
   font-size: 3em;
 }
