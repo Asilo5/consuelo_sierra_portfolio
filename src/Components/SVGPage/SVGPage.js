@@ -1,6 +1,8 @@
 import React from 'react';
 import './SVGPage.scss';
 
+import About from '../About/About';
+
 const SVGPage = () => {
     return (
         <section className='svg-page'>
@@ -61,6 +63,10 @@ const SVGPage = () => {
             </clipPath>
             </defs>
             </svg>
+
+            <section>
+               <About />
+            </section>
         </section>
     )
 }
