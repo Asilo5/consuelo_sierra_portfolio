@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <main>
          <NavBar />
-         <Route path='/' render={() => <SVGPage /> } />
+         <Route exact path='/' render={() => <SVGPage /> } />
          <Route path='/projects' render={() => <ProjectsContainer /> }/>
          {/* <Route path='/resume' render={() => <Resume /> }/> */}
       </main>
