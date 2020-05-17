@@ -15,7 +15,7 @@ class App extends Component {
          <NavBar />
          <SVGPage />
          <section>
-            <About />
+            {/* <About /> */}
             <ProjectsContainer />
          </section>
       </main>
