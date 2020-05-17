@@ -12,9 +12,9 @@ class App extends Component {
   render() {
     return (
       <main>
+         <NavBar />
          <SVGPage />
          <section>
-            <NavBar />
             <About />
             <ProjectsContainer />
          </section>
