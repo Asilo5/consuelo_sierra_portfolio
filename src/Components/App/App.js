@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import './App.scss';
+
 import SVGPage from '../SVGPage/SVGPage';
 import ProjectsContainer from '../ProjectsContainer/ProjectsContainer';
 import NavBar from '../NavBar/NavBar';
-import { Route } from 'react-router-dom'
+
+import { Route } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 
 class App extends Component {
   
