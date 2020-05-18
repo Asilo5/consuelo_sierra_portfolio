@@ -5,13 +5,14 @@ import About from '../About/About';
 import { motion } from 'framer-motion';
 
 
-const SVGPage = ({ pageVariants }) => {
+const SVGPage = ({ pageVariants, pageTransitions }) => {
     return (
         <motion.section 
           className='svg-page'
           initial={pageVariants.out}
           animate={pageVariants.in}
           exit={pageVariants.out}
+          transformValues={pageTransitions}
         >
             <h1>I am Consuelo, </h1>
             <h3>Frontend Developer.</h3>

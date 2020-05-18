@@ -5,7 +5,7 @@ import Project from '../Project/Project';
 
 import { motion } from 'framer-motion';
 
-const ProjectsContainer = ({ pageVariants }) => {
+const ProjectsContainer = ({ pageVariants, pageTransitions }) => {
   let theProjects = allProjects.map((project) => {
       return <Project key={project.name} {...project}/>
   })
@@ -15,6 +15,7 @@ const ProjectsContainer = ({ pageVariants }) => {
           initial={pageVariants.out}
           animate={pageVariants.in}
           exit={pageVariants.out}
+          transition={pageTransitions}
         > 
             {theProjects}
         </motion.section>
