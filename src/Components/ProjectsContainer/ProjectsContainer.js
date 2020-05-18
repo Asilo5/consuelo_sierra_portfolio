@@ -15,10 +15,8 @@ const ProjectsContainer = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-        >
-           <span role="img" className='arrow'>👉🏻</span>
+        > 
             {theProjects}
-           <span role="img" className='arrow'>👈🏻</span>
         </motion.section>
     )
 }
