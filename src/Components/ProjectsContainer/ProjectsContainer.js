@@ -5,16 +5,16 @@ import Project from '../Project/Project';
 
 import { motion } from 'framer-motion';
 
-const ProjectsContainer = () => {
+const ProjectsContainer = ({ pageTransitions }) => {
   let theProjects = allProjects.map((project) => {
       return <Project key={project.name} {...project}/>
   })
     return (
         <motion.section 
           className='project-container'
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
+          initial={pageTransitions.out}
+          animate={pageTransitions.in}
+          exit={pageTransitions.out}
         > 
             {theProjects}
         </motion.section>
