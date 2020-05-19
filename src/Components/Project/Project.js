@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.scss';
-
+ 
 const Project = ({ name, description, image, stack }) => {
 
     let techStack = stack.map((tech) => <p key={tech}>{tech}</p>)
