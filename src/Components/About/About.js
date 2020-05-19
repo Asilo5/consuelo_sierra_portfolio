@@ -9,18 +9,17 @@ const About = () => {
             <section className='name-info'>
                 <h3> Hiya!</h3>
                 <article className='paragraph'>
-                    <p> Front-End Developer based in Denver, Colorado, I am looking for opportunities here in Denver and around the globe.
+                    <p> Front-End Developer based in Denver, Colorado. I am looking for opportunities here in Denver and around the globe.
                  I love creating websites and have a passion for web design and engineering.
                  </p>
                 </article>
+                <section className='link-section'>
+                    <a href='https://www.linkedin.com/in/consuelo-sierra-lopez/'><img className='link' src='https://i.ya-webdesign.com/images/linkedin-button-png-1.png' alt='linkedin icon'/></a>
+                    <a href='https://twitter.com/_consueloCodes5' ><img className='link' src='https://icons-for-free.com/iconfiles/png/512/logo+twitter+twitter+logo+icon-1320167831451644641.png' alt='twitter icon' /></a>
+                    <a href='https://github.com/' ><img className='link' src='https://i.dlpng.com/static/png/6371680_preview.png' alt='github icon' /></a>
+                    <a href="mailto:asierralopez526@gmail.com" ><img className='link' src='https://library.kissclipart.com/20180902/ekq/kissclipart-transparent-background-mail-icon-clipart-computer-d100975ab74ec96b.png' alt='github icon' /></a>
+                </section>
             </section>
-        </section>
-        <section className='link-section'>
-            <a href='https://www.linkedin.com/in/consuelo-sierra-lopez/'><img className='link' src='https://www.freepngimg.com/download/social_media/74289-media-icons-computer-linkedin-social-free-transparent-image-hd.png' alt='linkedin icon'/></a>
-            <a href='https://twitter.com/_consueloCodes5' ><img className='link' src='https://icons-for-free.com/iconfiles/png/512/logo+twitter+twitter+logo+icon-1320167831451644641.png' alt='twitter icon' /></a>
-            <a href='https://github.com/' ><img className='link' src='https://icon-library.net/images/github-icon-png/github-icon-png-22.jpg' alt='github icon' /></a>
-            <a href="mailto:asierralopez526@gmail.com" ><img className='link' src='https://library.kissclipart.com/20180902/ekq/kissclipart-transparent-background-mail-icon-clipart-computer-d100975ab74ec96b.png' alt='github icon' /></a>
-
         </section>
     </section>
   )
