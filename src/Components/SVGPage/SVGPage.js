@@ -72,9 +72,8 @@ const SVGPage = ({ pageVariants, pageTransitions }) => {
             </defs>
             </svg>
 
-            <section>
-               <About />
-            </section>
+            <About />
+            
         </motion.section>
     )
 }
