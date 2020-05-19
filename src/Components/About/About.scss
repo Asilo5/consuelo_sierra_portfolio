@@ -1,66 +1,53 @@
  .about-section {
-    background-color: #5252e9;
+    background-color: white;
     padding: 20px;
+    border-radius: 15px;
 }
  
-.link {
-    height: 4em;
-    margin: 15px;
-    padding: 10px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-    &:hover {
-      transform: scale(1.3);
-    }
- }
-
 .about-chelo {
     display: flex;
     margin: 10px;
     img {
         margin: auto;
-        height: 25em;
+        height: 23em;
         border-radius: 50%;
-        box-shadow: 15px 10px #F1B03C;
+        box-shadow: 15px 10px #FFDEAD;
     }
 }
 
-.paragraph {
-    text-align: center;
-}
 
 .name-info {
     width: 51%;
     margin: auto;
     h3 {
-       text-align: left;
+       text-align: center;
+       font-size: 5em;
        margin-left: 25px; 
+       color: #4DADA0;
+       font-family: 'Vibur', cursive;
     }
-    h2 {
-        color: #F1B03C;
-        font-size: 6em;
-    }
-    p {
-        color: white;
-        font-size: 30px;
+
+    .paragraph {
+        text-align: center;
+        p {
+            color: black;
+            font-size: 30px;
+            font-family: 'Sen', sans-serif;
+        }
     }
 }
 
 .link-section {
     text-align: center;
-}
-
-ul {
-    // width: 40%;
-    // display: flex;
-    // flex-wrap: wrap;
-    // list-style-image: url('http://www.netanimations.net/Small-animated-flashing-sunshine-icon.gif');
-    // list-style: square inside url("sqpurple.gif");
-    li {
-        color: white;
-        margin: 5px;
-        font-size: 20px;
-
-    }
+    .link {
+        height: 4em;
+        margin: 15px;
+        padding: 10px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+          transform: scale(1.3);
+        }
+     }
 }
 
