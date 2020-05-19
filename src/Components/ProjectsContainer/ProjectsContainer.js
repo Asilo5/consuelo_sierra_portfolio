@@ -19,7 +19,8 @@ const ProjectsContainer = ({ pageVariants, pageTransitions }) => {
         > 
             <section className='intro-title'>
                 <h2>Projects</h2>
-                <p></p>
+                <p>I have experience building projects using React, Redux, Vue, vanilla Javascript, jQuery and such.</p>
+                <p>Scroll down to see the list of projects built!</p>
             </section>
             {theProjects}
         </motion.section>
