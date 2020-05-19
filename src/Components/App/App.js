@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.scss';
 
 import SVGPage from '../SVGPage/SVGPage';
