@@ -1,7 +1,6 @@
 .project {
     margin: 25px;
     padding: 20px;
-    max-height: 47em;
     border-radius: 15px;
     background-color: white;
 
@@ -20,8 +19,20 @@
     }
 
     .project-info {
-        padding: 40px;
+        padding: 40px 10px;
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
 
+        .description {
+           width: 70%;
+        }
        
+        p {
+            font-size: 18px;
+            font-family: 'Sen', sans-serif;
+            text-align: center;
+        }
     }
 }

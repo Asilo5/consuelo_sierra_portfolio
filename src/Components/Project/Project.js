@@ -9,10 +9,13 @@ const Project = ({ name, description, image, stack }) => {
          <h3>{name}</h3>
          <img src={image} alt={name}/>
          <section className='project-info'>
-            <p>{description}</p>
-            <p>Stack:</p>
-            <p>{techStack}</p>
+            <p className='description'>{description}</p>
+            <section>
+               <p>Stack:</p>
+               <p>{techStack}</p>
+            </section>
          </section>
+            <button>View Project</button>
       </section>
     )
 }
