@@ -19,6 +19,7 @@ const ProjectsContainer = ({ pageVariants, pageTransitions }) => {
         > 
             <section className='intro-title'>
                 <h2>Projects</h2>
+                <p></p>
             </section>
             {theProjects}
         </motion.section>

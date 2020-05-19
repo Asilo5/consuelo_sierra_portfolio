@@ -1,12 +1,19 @@
 .project-container {
-    background: rgb(151,151,224);
-    background: linear-gradient(0deg, rgba(151,151,224,1) 0%, rgba(82,82,233,1) 70%);
-    display: flex;
-    overflow: scroll;
-    .arrow {
-        display: flex;
-        align-items: center;
-        font-size: 4em;
-        padding: 10px;
+    background: #4DADA0;
+    
+
+    .intro-title {
+
+
+        h2 {
+          font-size: 10em;
+          font-family: 'Vibur', cursive;
+          color: white;
+          height: 100vh;
+          margin-top: -0.5em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
     }
 }
