@@ -14,20 +14,12 @@ const App = () => {
   
     const pageVariants = {
       in: {
-        opacity: 1,
-        y: 0
+        opacity: 1
       },
 
       out: {
-        opacity: 0,
-        y: "-100vh"
+        opacity: 0
       }
-    };
-
-    const pageTransitions = {
-      type: 'tween',
-      ease: 'anticipate',
-      duration: 1
     };
 
     return (
@@ -35,9 +27,9 @@ const App = () => {
          <NavBar />
          <AnimatePresence exitBeforeEnter>
            <Switch location={location} key={location.pathname} >
-              <Route exact path='/' render={() => <SVGPage pageVariants={pageVariants} pageTransitions={pageTransitions} /> } />
-              <Route exact path='/projects' render={() => <ProjectsContainer pageVariants={pageVariants} pageTransitions={pageTransitions} /> }/>
-              {/* <Route exact path='/resume' render={() => <Resume pageVariants={pageVariants} pageTransitions={pageTransitions} /> }/> */}
+              <Route exact path='/' render={() => <SVGPage pageVariants={pageVariants} /> } />
+              <Route exact path='/projects' render={() => <ProjectsContainer pageVariants={pageVariants} /> }/>
+              {/* <Route exact path='/resume' render={() => <Resume pageVariants={pageVariants} pageTransitions={pageTransitions}/> }/> */}
            </Switch>
          </AnimatePresence>
       </main>
