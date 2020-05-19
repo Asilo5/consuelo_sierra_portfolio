@@ -22,13 +22,19 @@ const App = () => {
       }
     };
 
+    const pageTransitions = {
+      // An array of four numbers to define a cubic bezier curve. An easing function, that accepts and returns a value 0-1.
+      ease: [0.17, 0.67, 0.83, 0.67],
+      duration: 2
+    };
+
     return (
       <main>
          <NavBar />
          <AnimatePresence exitBeforeEnter>
            <Switch location={location} key={location.pathname} >
-              <Route exact path='/' render={() => <SVGPage pageVariants={pageVariants} /> } />
-              <Route exact path='/projects' render={() => <ProjectsContainer pageVariants={pageVariants} /> }/>
+              <Route exact path='/' render={() => <SVGPage pageVariants={pageVariants} pageTransitions={pageTransitions} /> } />
+              <Route exact path='/projects' render={() => <ProjectsContainer pageVariants={pageVariants} pageTransitions={pageTransitions} /> }/>
               {/* <Route exact path='/resume' render={() => <Resume pageVariants={pageVariants} pageTransitions={pageTransitions}/> }/> */}
            </Switch>
          </AnimatePresence>

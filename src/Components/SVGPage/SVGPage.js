@@ -12,7 +12,7 @@ const SVGPage = ({ pageVariants, pageTransitions }) => {
           initial={pageVariants.out}
           animate={pageVariants.in}
           exit={pageVariants.out}
-          transformValues={pageTransitions}
+          transition={pageTransitions}
         >
             <h1>I am Consuelo, </h1>
             <h3>Frontend Developer.</h3>
