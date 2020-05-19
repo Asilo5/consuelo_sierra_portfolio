@@ -2,10 +2,18 @@ import React from 'react';
 import './SVGPage.scss';
 
 import About from '../About/About';
+import { motion } from 'framer-motion';
 
-const SVGPage = () => {
+
+const SVGPage = ({ pageVariants, pageTransitions }) => {
     return (
-        <section className='svg-page'>
+        <motion.section 
+          className='svg-page'
+          initial={pageVariants.out}
+          animate={pageVariants.in}
+          exit={pageVariants.out}
+          transition={pageTransitions}
+        >
             <h1>I am Consuelo, </h1>
             <h3>Frontend Developer.</h3>
             <svg viewBox="0 0 1042 555" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +75,7 @@ const SVGPage = () => {
             <section>
                <About />
             </section>
-        </section>
+        </motion.section>
     )
 }
 

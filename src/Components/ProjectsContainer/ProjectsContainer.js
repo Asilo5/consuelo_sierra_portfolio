@@ -3,16 +3,22 @@ import './ProjectsContainer.scss';
 import { allProjects } from '../../allProjects/allProjects';
 import Project from '../Project/Project';
 
-const ProjectsContainer = () => {
+import { motion } from 'framer-motion';
+
+const ProjectsContainer = ({ pageVariants, pageTransitions }) => {
   let theProjects = allProjects.map((project) => {
       return <Project key={project.name} {...project}/>
   })
     return (
-        <section className='project-container'>
-           <span role="img" className='arrow'>👉🏻</span>
+        <motion.section 
+          className='project-container'
+          initial={pageVariants.out}
+          animate={pageVariants.in}
+          exit={pageVariants.out}
+          transition={pageTransitions}
+        > 
             {theProjects}
-           <span role="img" className='arrow'>👈🏻</span>
-        </section>
+        </motion.section>
     )
 }
 
