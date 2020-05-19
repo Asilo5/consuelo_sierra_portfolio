@@ -7,31 +7,19 @@ const About = () => {
         <section className='about-chelo'>
             <img src='https://alumni.turing.io/sites/default/files/styles/graduate_full_profile/public/DSC_3400-Edit.jpg?itok=VgVyiHzN' alt='Consuelo posing outside holding her laptop in Denver Colorado' />
             <section className='name-info'>
-                <h3> Hiya! I'm </h3>
-                <h2>Consuelo Sierra.</h2>
+                <h3> Hiya!</h3>
                 <article className='paragraph'>
-                    <p> A Front-End Developer based in Denver, Colorado, looking for opportunities here and around the globe.
-                 I have a passion for creating websites that are creative yet easy to navigate for users.
-                 Currently, the opportunities I am looking for are junior Front-End, internship, or apprenticeship positions.</p>
+                    <p> Front-End Developer based in Denver, Colorado. I am looking for opportunities here in Denver and around the globe.
+                 I love creating websites and have a passion for web design and engineering.
+                 </p>
                 </article>
-                <article className='tech-stack'>
-                    <p>My Tech Stack includes: </p>
-                    <ul>
-                        <li>React & Redux</li>
-                        <li>Javascript (ES6)</li>
-                        <li>HTML & CSS</li>
-                        <li>Jest & Enzyme</li>
-                        <li>Mocha & Chai</li>
-                    </ul>
-                </article>
+                <section className='link-section'>
+                    <a href='https://www.linkedin.com/in/consuelo-sierra-lopez/'><img className='link' src='https://i.ya-webdesign.com/images/linkedin-button-png-1.png' alt='linkedin icon'/></a>
+                    <a href='https://twitter.com/_consueloCodes5' ><img className='link' src='https://finnsranch.com/wp-content/uploads/2019/04/logo-twitter-circle-png-transparent-image-1-1024x1024.png' alt='twitter icon' /></a>
+                    <a href='https://github.com/' ><img className='link' src='https://image.flaticon.com/icons/png/512/25/25231.png' alt='github icon' /></a>
+                    <a href="mailto:asierralopez526@gmail.com" ><img className='link' src='https://library.kissclipart.com/20180902/ekq/kissclipart-transparent-background-mail-icon-clipart-computer-d100975ab74ec96b.png' alt='github icon' /></a>
+                </section>
             </section>
-        </section>
-        <section className='link-section'>
-            <a href='https://www.linkedin.com/in/consuelo-sierra-lopez/'><img className='link' src='https://www.freepngimg.com/download/social_media/74289-media-icons-computer-linkedin-social-free-transparent-image-hd.png' alt='linkedin icon'/></a>
-            <a href='https://twitter.com/_consueloCodes5' ><img className='link' src='https://icons-for-free.com/iconfiles/png/512/logo+twitter+twitter+logo+icon-1320167831451644641.png' alt='twitter icon' /></a>
-            <a href='https://github.com/' ><img className='link' src='https://icon-library.net/images/github-icon-png/github-icon-png-22.jpg' alt='github icon' /></a>
-            <a href="mailto:asierralopez526@gmail.com" ><img className='link' src='https://library.kissclipart.com/20180902/ekq/kissclipart-transparent-background-mail-icon-clipart-computer-d100975ab74ec96b.png' alt='github icon' /></a>
-
         </section>
     </section>
   )
