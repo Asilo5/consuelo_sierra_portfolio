@@ -10,7 +10,7 @@ const Footer = () => {
             <a href='https://github.com/' > GitHub </a>
         </section>
 
-        <p> &copy; <a href='https://github.com/' > 2020 Consuelo Sierra </a> </p>
+        <p> &copy; 2020 <a href='https://github.com/' >Consuelo Sierra </a> </p>
     </section>
   );
 };
