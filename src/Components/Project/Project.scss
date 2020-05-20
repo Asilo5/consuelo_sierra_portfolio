@@ -1,14 +1,65 @@
 .project {
-    margin: 20px;
-    border: 1px solid black;
-    border-radius: 20px;
-    max-height: 47em;
-    img {
-        width: 46em;
-        padding: 15px;
-    }
-}
-
-.project-info {
+    margin: 25px;
     padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+
+    h3 {
+      font-family: 'Sen', sans-serif;
+      color: #4DADA0;
+      font-size: 4em;
+      padding: 20px;
+    }
+
+    img {
+        border-radius: 5px;
+        width: 46em;
+        display: block;
+        margin: auto;
+        box-shadow: 6px 8px #b4afaf;
+    }
+
+    .project-info {
+        padding: 50px 5px;
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .description {
+           width: 70%;
+        }
+
+        .stacks {
+           text-align: center;
+           border-left: 1px solid #4DADA0;
+           padding-left: 15px;
+        }
+       
+        p {
+            font-size: 20px;
+            font-family: 'Sen', sans-serif;
+            text-align: center;
+        }
+    }
+
+    button {
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 3px;
+        font-size: 2em;
+        background-color: #4DADA0;
+        font-family: 'Sen', sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+        border: 2px solid rgb(246, 200, 131);
+        transition: 1s;
+        &:hover {
+          background-color: #4DADA0;
+          color: white;
+          box-shadow: 2px 5px gray;
+        }
+    }
 }
