@@ -5,6 +5,7 @@ import SVGPage from '../SVGPage/SVGPage';
 import ProjectsContainer from '../ProjectsContainer/ProjectsContainer';
 import NavBar from '../NavBar/NavBar';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 import { Route, Switch, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
@@ -40,6 +41,7 @@ const App = () => {
            </Switch>
          </AnimatePresence>
          <Contact />
+         <Footer />
       </main>
     )
   }
