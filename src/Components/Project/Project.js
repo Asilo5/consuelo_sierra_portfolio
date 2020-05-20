@@ -10,8 +10,8 @@ const Project = ({ name, description, image, stack }) => {
          <img src={image} alt={name}/>
          <section className='project-info'>
             <p className='description'>{description}</p>
-            <section>
-               <p>Stack:</p>
+            <section className='stacks'>
+               <h4>Stack:</h4>
                <p>{techStack}</p>
             </section>
          </section>
