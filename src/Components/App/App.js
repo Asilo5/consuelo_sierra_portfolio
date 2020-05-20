@@ -4,6 +4,7 @@ import './App.scss';
 import SVGPage from '../SVGPage/SVGPage';
 import ProjectsContainer from '../ProjectsContainer/ProjectsContainer';
 import NavBar from '../NavBar/NavBar';
+import Contact from '../Contact/Contact';
 
 import { Route, Switch, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
@@ -38,6 +39,7 @@ const App = () => {
               {/* <Route exact path='/resume' render={() => <Resume pageVariants={pageVariants} pageTransitions={pageTransitions}/> }/> */}
            </Switch>
          </AnimatePresence>
+         <Contact />
       </main>
     )
   }
