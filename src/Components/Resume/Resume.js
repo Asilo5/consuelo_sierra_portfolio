@@ -5,7 +5,7 @@ const Resume = () => {
   
     return (
       <section className='resume'>
-
+         <img src='../src/images/CV.png' alt='Consuelos CV' />
       </section>
     );
 };
