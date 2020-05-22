@@ -1,16 +1,23 @@
 import React from 'react';
 import './Resume.scss';
 
-const Resume = () => {
-  
-  console.log({Image})
+import { motion } from 'framer-motion';
+
+const Resume = ({ pageVariants, pageTransitions }) => {
+
     return (
-      <section className='resume'>
+      <motion.section 
+        className='resume'
+        initial={pageVariants.out}
+        animate={pageVariants.in}
+        exit={pageVariants.out}
+        transition={pageTransitions}
+      >
 
          <img src='/static/media/CV.c8d5f31c.png' alt='Consuelos CV' />
 
          <a href='/static/media/Consuelo Sierra.59d199a7.pdf' download> Click to Download PDF </a>
-      </section>
+      </motion.section>
     );
 };
 
