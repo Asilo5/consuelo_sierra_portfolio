@@ -35,11 +35,9 @@ const App = () => {
       <main>
          <NavBar />
          <AnimatePresence exitBeforeEnter>
-           <Switch location={location} key={location.pathname} >
               <Route exact path='/' render={() => <SVGPage pageVariants={pageVariants} pageTransitions={pageTransitions} /> } />
               <Route exact path='/projects' render={() => <ProjectsContainer pageVariants={pageVariants} pageTransitions={pageTransitions} /> }/>
               <Route exact path='/resume' render={() => <Resume pageVariants={pageVariants} pageTransitions={pageTransitions}/> }/>
-           </Switch>
          </AnimatePresence>
          <Contact />
          <Footer />
