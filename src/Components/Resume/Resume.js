@@ -1,14 +1,16 @@
 import React from 'react';
 import './Resume.scss';
+import Image from '../../assets/Consuelo Sierra.pdf';
 
 const Resume = () => {
   
+  console.log({Image})
     return (
       <section className='resume'>
 
-         <img src='../static/media/CV.png' alt='Consuelos CV' />
+         <img src='/static/media/CV.c8d5f31c.png' alt='Consuelos CV' />
 
-         <a href='/Users/amandasierralopez/Home-Projects/consuelo-portfolio/consuelo-portfolio/static/media/Consuelo Sierra.pdf' download> Click to Download PDF </a>
+         <a href='/static/media/Consuelo Sierra.59d199a7.pdf' download> Click to Download PDF </a>
       </section>
     );
 };
