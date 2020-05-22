@@ -9,6 +9,12 @@
    img  {
       margin: auto;
       height: 40em;
+      transition: 1s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+          transform: scale(1.4);
+      }
    }
 
     a {
