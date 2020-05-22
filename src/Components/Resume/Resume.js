@@ -1,6 +1,5 @@
 import React from 'react';
 import './Resume.scss';
-import Image from '../../assets/Consuelo Sierra.pdf';
 
 const Resume = () => {
   
