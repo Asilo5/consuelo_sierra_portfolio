@@ -6,11 +6,9 @@ const Resume = () => {
     return (
       <section className='resume'>
 
-         <img src='./images/CV.png' alt='Consuelos CV' />
+         <img src='/static/media/CV.png' alt='Consuelos CV' />
 
-         <a href='./images/CV.png' download>
-           <img src='./images/CV.png' alt='Consuelos CV' />
-        </a>
+         <a href='/Users/amandasierralopez/Home-Projects/consuelo-portfolio/consuelo-portfolio/static/media/Consuelo Sierra.pdf' download> Click to Download </a>
       </section>
     );
 };
