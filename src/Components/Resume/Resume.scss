@@ -42,3 +42,16 @@
     }
 
 }
+
+
+// Ipad Media Querie
+
+@media screen and (max-width: 768px) {
+   .resume {
+       height: 100%;
+
+       a {
+           width: 50%;
+       }
+   }
+}
