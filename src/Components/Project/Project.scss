@@ -73,5 +73,17 @@
         img {
             width: 80%;
         }
+
+        .project-info {
+            width: 90%;
+
+            .description {
+                margin-right: 10px;
+            }
+
+            .stacks {
+                margin-left: 10px;
+            }
+        }
     }
 }
