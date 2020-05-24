@@ -63,3 +63,27 @@
         }
     }
 }
+
+
+// Ipad Media Querie
+
+@media screen and (max-width: 768px) {
+
+    .project {
+        img {
+            width: 80%;
+        }
+
+        .project-info {
+            width: 90%;
+
+            .description {
+                margin-right: 10px;
+            }
+
+            .stacks {
+                margin-left: 10px;
+            }
+        }
+    }
+}

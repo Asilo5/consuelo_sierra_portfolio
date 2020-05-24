@@ -76,3 +76,11 @@ h3 {
         transform: translateX(-1vw) scale(1);
       }
 }
+
+// Ipad Media Querie
+
+@media screen and (max-width: 768px) {
+  svg {
+    top: -8em;
+  }
+}

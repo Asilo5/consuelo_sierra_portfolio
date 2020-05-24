@@ -1,10 +1,12 @@
 import React from 'react';
 import './Resume.scss';
+import CV from '../../assets/CV.png';
+import Pdf from '../../assets/Consuelo Sierra.pdf';
 
 import { motion } from 'framer-motion';
 
 const Resume = ({ pageVariants, pageTransitions }) => {
-
+  
     return (
       <motion.section 
         className='resume'
