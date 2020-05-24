@@ -8,7 +8,8 @@ import { motion } from 'framer-motion';
 const ProjectsContainer = ({ pageVariants, pageTransitions }) => {
   let theProjects = allProjects.map((project) => {
       return <Project key={project.name} {...project}/>
-  })
+  });
+   
     return (
         <motion.section 
           className='project-container'
