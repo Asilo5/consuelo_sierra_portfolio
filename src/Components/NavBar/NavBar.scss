@@ -23,7 +23,9 @@ nav {
       }
 }
 
-@media screen and (max-width: 375px) {
+// Phone Media Quirie
+
+@media screen and (max-width: 414px) {
   
   nav {
     justify-content: center;
@@ -35,6 +37,5 @@ nav {
       font-size: 15px;
     }
   }
-
 }
 
