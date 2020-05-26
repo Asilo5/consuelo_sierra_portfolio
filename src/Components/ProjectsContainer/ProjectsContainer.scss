@@ -36,3 +36,23 @@
        }
    }
 }
+
+// Phone Media Querie
+
+@media screen and (max-width: 414px) {
+    .project-container{
+ 
+      .intro-title {
+        h2 {
+            font-size: 6em;
+        }
+
+        p {
+            font-size: 19px;
+        }
+
+      }
+    }
+
+
+}
