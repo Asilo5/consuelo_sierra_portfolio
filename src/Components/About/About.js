@@ -17,7 +17,6 @@ const About = () => {
                     <a href='https://www.linkedin.com/in/consuelo-sierra-lopez/'><img className='link' src='https://i.ya-webdesign.com/images/linkedin-button-png-1.png' alt='linkedin icon'/></a>
                     <a href='https://twitter.com/_consueloCodes5' ><img className='link' src='https://finnsranch.com/wp-content/uploads/2019/04/logo-twitter-circle-png-transparent-image-1-1024x1024.png' alt='twitter icon' /></a>
                     <a href='https://github.com/' ><img className='link' src='https://image.flaticon.com/icons/png/512/25/25231.png' alt='github icon' /></a>
-                    <a href="mailto:asierralopez526@gmail.com" ><img className='link' src='https://library.kissclipart.com/20180902/ekq/kissclipart-transparent-background-mail-icon-clipart-computer-d100975ab74ec96b.png' alt='github icon' /></a>
                 </section>
             </section>
         </section>
