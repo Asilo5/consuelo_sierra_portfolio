@@ -84,3 +84,19 @@ h3 {
     top: -8em;
   }
 }
+
+@media screen and (max-width: 414px) {
+  
+   h1 {
+     font-size: 3em;
+   }
+
+   h3 {
+     font-size: 2em;
+   }
+
+   svg {
+     left: 1em;
+     top: -4em;
+   }
+}
