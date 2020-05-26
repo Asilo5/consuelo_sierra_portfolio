@@ -62,4 +62,28 @@
     }
 }
 
+// Phone Media Querie
+
+@media screen and (max-width: 414px) {
+
+    .name-info h3 {
+      margin-left: 0em;
+    }
+
+   .about-chelo {
+       img {
+           height: 14em;
+       }
+   }
+
+   .name-info {
+    .paragraph {
+        p {
+            font-size: 20px;
+        }
+     } 
+   }
+
+}
+
 
