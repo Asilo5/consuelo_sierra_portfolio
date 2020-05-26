@@ -88,6 +88,10 @@ h3 {
 // Phone Media Querie
 
 @media screen and (max-width: 414px) {
+
+  .svg-page {
+    padding: 0px 20px;
+  }
   
    h1 {
      font-size: 3em;
