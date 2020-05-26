@@ -23,3 +23,18 @@ nav {
       }
 }
 
+@media screen and (max-width: 375px) {
+  
+  nav {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+
+    .nav {
+      margin-left: 10px;
+      font-size: 15px;
+    }
+  }
+
+}
+
