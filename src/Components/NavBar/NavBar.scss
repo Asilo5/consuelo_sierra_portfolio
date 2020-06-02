@@ -23,3 +23,19 @@ nav {
       }
 }
 
+// Phone Media Quirie
+
+@media screen and (max-width: 414px) {
+  
+  nav {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+
+    .nav {
+      margin-left: 10px;
+      font-size: 15px;
+    }
+  }
+}
+
