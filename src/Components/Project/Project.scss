@@ -87,3 +87,36 @@
         }
     }
 }
+
+// Phone Media Querie
+
+@media screen and (max-width: 414px) {
+  
+    .project {
+        margin: 20px;
+
+        h3 {
+            font-size: 3em;
+        }
+
+        .project-info {
+            flex-direction: column;
+
+
+            .description {
+                margin-right: 0px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .stacks {
+                margin-left: 0px;
+                border-top: 1px solid #4DADA0;
+                border-left: none;
+                padding-left: 0px;
+                padding-top: 10px;
+            }
+        }
+    }
+
+}
