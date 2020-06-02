@@ -64,6 +64,18 @@
     }
 }
 
+// Ipad Pro Media Querie
+
+@media screen and (max-width: 1024px) {
+    .project {
+        .project-info {
+            .description {
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
 
 // Ipad Media Querie
 
