@@ -25,6 +25,20 @@
     }
 }
 
+// Ipad Pro Media Querie
+
+@media screen and (max-width: 1024px) {
+    .project-container {
+        .intro-title {
+           padding: 0px 40px;
+
+           p {
+            text-align: center;
+           }
+        }
+    }
+}
+
 // Ipad Media Querie
 
 @media screen and (max-width: 768px) {

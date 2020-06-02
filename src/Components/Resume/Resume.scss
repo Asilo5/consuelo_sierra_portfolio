@@ -55,3 +55,17 @@
        }
    }
 }
+
+// Phone Media Querie
+
+@media screen and (max-width: 414px) {
+    .resume {
+        img {
+            height: 20em;
+        }
+
+        a {
+            width: 100%;
+        }
+    }
+}
