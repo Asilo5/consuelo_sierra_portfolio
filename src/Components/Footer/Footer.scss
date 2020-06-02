@@ -30,3 +30,19 @@
         }
     }
 }
+
+// Phone Media Querie
+
+@media screen and (max-width: 414px) {
+   .footer {
+       .links {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            margin: 10px;
+        }
+       }
+   }
+
+}
