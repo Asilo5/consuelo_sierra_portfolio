@@ -12,5 +12,5 @@ What's New Times was built using:
   
 ## Picture of my portfolio
 
-![image of my portfolio]()
+![image of my portfolio](https://github.com/Asilo5/le-portfolio/blob/master/Screenshot%202020-09-28%20at%2015.21.04.png)
 
