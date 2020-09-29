@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <section className='footer'>
         <section className='links'>
-            <a href='https://www.linkedin.com/in/consuelo-sierra-lopez/'> LinkedIn </a>
+            <a href='https://www.linkedin.com/in/consuelo-sierra/'> LinkedIn </a>
             <a href='https://twitter.com/_consueloCodes5'> Twitter </a>
-            <a href='https://github.com/' > GitHub </a>
+            <a href='https://github.com/Asilo5' > GitHub </a>
         </section>
 
-        <p> &copy; 2020 <a href='https://github.com/' >Consuelo Sierra </a> </p>
+        <p> &copy; 2020 <a href='https://www.linkedin.com/in/consuelo-sierra/' >Consuelo Sierra </a> </p>
     </section>
   );
 };
