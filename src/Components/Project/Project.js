@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.scss';
  
-const Project = ({ name, description, image, stack }) => {
+const Project = ({ name, description, image, stack, link }) => {
 
     let techStack = stack.map((tech) => <p key={tech}>{tech}</p>)
     return (
@@ -15,7 +15,7 @@ const Project = ({ name, description, image, stack }) => {
                <p>{techStack}</p>
             </section>
          </section>
-            <button>View Project</button>
+            <button><a href={link}>View Project</a></button>
       </section>
     )
 }
